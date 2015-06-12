@@ -1,0 +1,36 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Chris Perelstein",
+    "longName": "basic plus utc",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/icon_28.png",
+                "menuIcon": true,
+                "name": "image_icon_28",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9:Z -]",
+                "file": "fonts/RobotoCondensed-Bold.ttf",
+                "name": "font_roboto_condensed_bold_reduced_60",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "basic plus utc",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "75901a91-137a-48b1-b4b9-dab9e1757367",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
