@@ -32,7 +32,7 @@ static void update(struct tm *tick_time, TimeUnits units_changed) {
 
   // only update day/date if needed
   if (units_changed & DAY_UNIT) {
-    strftime(localdate, sizeof(localdate), "%F", tick_time);
+    strftime(localdate, sizeof(localdate), "%Y-%m-%d", tick_time); // %F is broken now?
     strftime(localday, sizeof(localday), "%A", tick_time);
 
     text_layer_set_text(s_textlayer_date, localdate);
